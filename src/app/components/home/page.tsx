@@ -1,29 +1,14 @@
-"use client"
-import React, { Component } from 'react'
-import Navbar from './components/Navbar'
+import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <Navbar/>
+    <h3><div className=" w-50px h-50px">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwRQgOmsSbx0YP89NazT_-zMUQtz-ztVJv_g&s" className='w-12 h-12' alt="" />
 
-
-      
-      <div>
-  <h2 className="text-6xl font-semibold text-green-800 flex justify-center items-center pt-6 mb-2">
-    Discover the Power of Plants
-  </h2>
 </div>
 
-
-<div className="relative w-full h-25 flex justify-center items-center">
-  <img 
-    src="https://media.istockphoto.com/id/1001515384/vector/green-sprout-set-vector-illustration.jpg?s=612x612&w=0&k=20&c=aatG0fbe2B-TfNahZ9xdoZbXw45HZtmPsDjdn5ckY1Y=" 
-    alt="Description of image" 
-    className="w-full max-w-4xl h-auto object-contain mt-0 border-4 border-green-500" 
-  />
-</div>
-
+</h3>
  {/* This is a  add to Card */}
  <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
@@ -111,7 +96,6 @@ const page = () => {
     </div>
   </div>
 </section>
-
 {/* Footer */}
 
 <footer className="text-gray-600 body-font">
@@ -212,6 +196,25 @@ const page = () => {
     </div>
   </div>
 </footer>
+
+<div>
+  <h2 className="text-6xl font-semibold text-green-800 flex justify-center items-center pt-6 mb-2">
+    Discover the Power of Plants
+  </h2>
+</div>
+
+<div className="relative w-full h-screen flex justify-center items-center">
+  <img 
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwRQgOmsSbx0YP89NazT_-zMUQtz-ztVJv_g&s" 
+    alt="Description of image" 
+    className="w-full max-w-4xl h-auto object-contain mt-0" 
+  />
+</div>
+
+
+  
+
+
 
     </div>
   )
