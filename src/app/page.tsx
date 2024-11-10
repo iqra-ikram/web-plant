@@ -1,5 +1,5 @@
 "use client"
-import React, { Component } from 'react'
+import React from 'react'
 import Navbar from './components/Navbar'
 
 const page = () => {
